@@ -13,7 +13,7 @@ pip install -r requirements.txt
 3. Modify Parameters
 Before running the flash_dump.py script, make sure to edit it to adjust the baudrate(BAUD) and COM port(PORT), as well as the end address(END_ADDR) and step count(STEP) according to the embedded device and UART connection.
 
-4. Run the Script
+4. Run the Script :
 python3 flash_dump.py
 
 The output is saved in the same directory with the script, named as 'firmware.bin'.
