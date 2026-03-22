@@ -3,7 +3,7 @@ This is a python based firmware extraction script that automates the flash_dump 
 
 Getting Started
 1. Clone the Repository : 
-git clone https://github.com/parichoy-ghosal/iot-firmware-extractor.git
+git clone https://github.com/parichoy-ghosal/iot-firmware-extractor.git ||
 cd iot-firmware-extractor
 
 2. Install Dependencies
