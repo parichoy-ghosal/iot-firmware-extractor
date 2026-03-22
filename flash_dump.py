@@ -3,12 +3,12 @@ import re
 import time
 import sys
 
-PORT = '/dev/ttyUSB0'
-BAUD = 115200
+PORT = '/dev/ttyUSB0'  # modify as per COM port
+BAUD = 115200          # modify as per UART connection
 
 START_ADDR = 0
-END_ADDR = 2097152      # change to appropriate end address for full dump 
-STEP = 256
+END_ADDR = 2097152      # modify to appropriate end address for full dump 
+STEP = 256              # modify to appropriate step size as per the device
 
 OUTPUT_FILE = "firmware.bin"
 LOG_FILE = "dump_log.txt"
